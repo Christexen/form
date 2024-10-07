@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form">
+      <div><h1 class="header">sign in</h1></div>
+    
+      <div class="form-content">
+ <label for="">FirstName:</label>
+          <input itemid="FirstName" type="text" id="FirstName" placeholder="FirstName" />
+          <p id="errorFirstName"></p><br\>
+        
+          <label for="LastName">LastName:</label>
+          <input id="LastName" type="text" placeholder="LastName" />
+          <p id="errorLastName"></p><br\>
+      
+        <label for="">Email:</label>
+          <input  style="margin-left: 20px;" id="Email" class="emma" placeholder="Enter your Email" />
+          <p id="errorEmailName"></p><br\>
+          
+        
+        <label for="">Password:</label>
+          <input  id="Password" type="text" placeholder="Enter your Password" />
+          <p id="errorPassword"></p> <br\>
+      
+         <label for="" >Confirm Password:</label>
+          <input id="Confirm" type="text" placeholder="Confirm Password" />
+          <p id="errorConfirmPassword"></p><br\>
+          <label for="">PhoneNumber:</label>
+          <input id="phoneNumber" type="text" placeholder="Enter your PhoneNumber" />
+          <p id="errorPhoneNumber"></p><br\>
+    
+<button onclick="submit(event)" class="button"> Sign Up</button>
+       </div>
+</div>
+    <script src="form.js"></script>
+  </body>
+</html>
